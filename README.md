@@ -14,9 +14,9 @@ Aplikasi ini adalah program sederhana yang berfungsi untuk mendiagnosa 5 jenis k
 Sesuai dengan instruksi dari tugas, program ini benar-benar tidak menggunakan logika bertingkat if-else panjang. Logika utamanya disusun menggunakan pendekatan struktur data:
 
 1. **Knowledge Base (Dictionary):**
-   Setiap data untuk nama kerusakan, syarat list gejala, dan solusinya dibungkus ke dalam satu list dictionary yang rapi bernama `aturan_diagnosa`.
+   Setiap data untuk nama kerusakan, syarat list gejala, dan solusinya dibungkus ke dalam satu list dictionary yang rapi bernama aturan_diagnosa.
 2. **Mesin Inferensi (Fungsi Subset):**
-   Untuk mendeteksi atau mencocokkan apakah gejala dari user sesuai dengan satu penyakit, program menggunakan pustaka Himpunan (Sets) bawaan Python yakni fungsi `.issubset()`. Fungsi ini akan mengecek otomatis apakah semua centangan pengguna memenuhi syarat validasi tanpa perlu menggunakan coding yang berjejer panjang.
+   Untuk mendeteksi atau mencocokkan apakah gejala dari user sesuai dengan satu penyakit, program menggunakan pustaka Himpunan (Sets) bawaan Python yakni fungsi .issubset(). Fungsi ini akan mengecek otomatis apakah semua centangan pengguna memenuhi syarat validasi tanpa perlu menggunakan coding yang berjejer panjang.
 
 ## Cara Menjalankan Program
 
@@ -27,7 +27,7 @@ Sesuai dengan instruksi dari tugas, program ini benar-benar tidak menggunakan lo
 
 ## Detail Blok Kode
 
-- `aturan_diagnosa` : Logika dasar yang berperan sebagai penampung parameter database.
-- `daftar_pertanyaan_gejala` : Berfungsi sebagai penerjemah kode referensi database menjadi kalimat bahasa Indonesia yang lebih santai untuk dibaca pengguna di layar.
-- `class ProgramDiagnosaPC` : Tempat untuk mengatur ukuran jendela, perulangan (looping) checkbox, warna latar, tipe huruf utama, maupun scroll layar.
-- `def eksekusi_diagnosa` : Aksi yang merespon klik tombol utama. Bertugas melempar data yang dicentang menuju proses himpunan matematika untuk dikomparasi dan segera mengeluarkan popup hasilnya.
+- aturan_diagnosa : Logika dasar yang berperan sebagai penampung parameter database.
+- daftar_pertanyaan_gejala : Berfungsi sebagai penerjemah kode referensi database menjadi kalimat bahasa Indonesia yang lebih santai untuk dibaca pengguna di layar.
+- class ProgramDiagnosaPC : Tempat untuk mengatur ukuran jendela, perulangan (looping) checkbox, warna latar, tipe huruf utama, maupun scroll layar.
+- def eksekusi_diagnosa : Aksi yang merespon klik tombol utama. Bertugas melempar data yang dicentang menuju proses himpunan matematika untuk dikomparasi dan segera mengeluarkan popup hasilnya.
