@@ -22,10 +22,7 @@ Sesuai dengan instruksi dari tugas, program ini benar-benar tidak menggunakan lo
 
 1. Buka Terminal atau Command Prompt.
 2. Pindah atau arahkan (cd) ke letak direktori/folder penyimpan file ini.
-3. Jalankan file python utama dengan perintah berikut ini:
-   ```bash
-   python sistem_pakar.py
-   ```
+3. Jalankan file python utama 
 4. Jendela utama dari aplikasi program akan langsung terbuka. Anda tinggal mencentang beberapa gejala lalu klik tombol proses untuk memunculkan notifikasi hasil akhirnya.
 
 ## Detail Blok Kode
