@@ -31,3 +31,8 @@ Sesuai dengan instruksi dari tugas, program ini benar-benar tidak menggunakan lo
 - daftar_pertanyaan_gejala : Berfungsi sebagai penerjemah kode referensi database menjadi kalimat bahasa Indonesia yang lebih santai untuk dibaca pengguna di layar.
 - class ProgramDiagnosaPC : Tempat untuk mengatur ukuran jendela, perulangan (looping) checkbox, warna latar, tipe huruf utama, maupun scroll layar.
 - def eksekusi_diagnosa : Aksi yang merespon klik tombol utama. Bertugas melempar data yang dicentang menuju proses himpunan matematika untuk dikomparasi dan segera mengeluarkan popup hasilnya.
+
+Output:
+<img width="870" height="909" alt="image" src="https://github.com/user-attachments/assets/d79b3b8d-2e48-4c3b-b685-eea56e32725e" />
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/86b3c4f4-840e-4d6e-9450-16e7c502701e" />
+
